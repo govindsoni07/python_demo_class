@@ -1,4 +1,4 @@
-n=int(input("Enter a no. to check: "))
+n=float(input("Enter a no. to check: "))
 if n==0:
     print("Zero")
 elif n<1:
