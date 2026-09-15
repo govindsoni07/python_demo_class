@@ -1,3 +1,4 @@
+#range of even is print 
 # ch=int(input("Enter range : "))
 # i=1
 # while i<=ch:
@@ -5,7 +6,7 @@
 #     if i%2==0:
 #         print(i)
 
-
+#print to range of no. and how many total odd and even print
 ch=int(input("Enter range : "))
 i=1
 count=0
