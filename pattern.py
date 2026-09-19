@@ -58,9 +58,18 @@ print("-------------------------------another pattern---------------------------
 2 3
 4 5 6
 7 8 9 10
-11 12 13 14
+11 12 13 14 15
 '''
+x=1
 for i in range(1,6):
-    for j in range(i+1):
-        print(i,end=" ")
+    for j in range(i):
+        print(x,end=" ")
+        x+=1
+    print()
+print("----------------------------------------------------")
+x=21
+for i in range(6,0,-1):
+    for j in range(i):
+        print(x,end=" ")
+        x-=1
     print()
