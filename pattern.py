@@ -73,3 +73,27 @@ for i in range(6,0,-1):
         print(x,end=" ")
         x-=1
     print()
+
+
+'''
+      *
+    * * *
+   * * * * 
+  * * * * *
+
+'''
+print("----------------------new pattern----------------")
+n = 5
+
+for i in range(1, n + 1):          # Outer loop for rows
+    
+    # Inner Loop 1: Print leading spaces
+    for j in range(n - i):
+        print(" ", end="")
+        
+    # Inner Loop 2: Print stars
+    for k in range(2 * i- 1):
+        print("*", end="")
+        
+    # Move to the next line after completing the row
+    print()
